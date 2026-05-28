@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <title>마포 서버 웜업 ─ 정보 & 방향</title>
+    <meta name="description" content="강남 셔츠룸의 포장은 버려라. 마포에서 서버를 직접 웜업하고 진짜 실전을 경험하라. 지금 010-6279-0862로 연결하라.">
+    <meta name="keywords" content="강남 셔츠룸, 마포 셔츠룸, 서버 웜업, 마포 웜업, 강남 셔츠, 정보, 방향">
+    <meta name="author" content="PBN Brutalist">
+    <link rel="canonical" href="https://sf-t3-1779642675702-468.pages.dev/">
+    <!-- OG / Twitter Card -->
+    <meta property="og:title" content="마포 서버 웜업 ─ 네 방향은 여기다">
+    <meta property="og:description" content="강남 셔츠룸의 규격화는 가라. 마포에서 서버를 직접 웜업하고 진짜를 부딪혀라. 010-6279-0862">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sf-t3-1779642675702-468.pages.dev/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="마포 서버 웜업 ─ 네 방향은 여기다">
+    <meta name="twitter:description" content="강남 셔츠룸의 포장은 버려라. 마포에서 서버를 직접 웜업하고 진짜를 경험하라.">
+    <style>
+        /* RESET & BASE */
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Courier New', 'IBM Plex Mono', monospace; background: #0a0a0a; color: #e0e0e0; line-height: 1.6; overflow-x: hidden; }
+        /* TYPOGRAPHY RAW */
+        h1, h2, h3, h4 { text-transform: uppercase; letter-spacing: 0.15em; font-weight: 900; }
+        h1 { font-size: clamp(2rem, 6vw, 4rem); line-height: 1; margin-bottom: 1rem; color: #ff0055; text-shadow: 0 0 20px #ff005566; }
+        h2 { font-size: clamp(1.5rem, 4vw, 2.5rem); margin-bottom: 1.5rem; color: #00f0ff; text-shadow: 0 0 15px #00f0ff66; }
+        h3 { font-size: clamp(1.2rem, 3vw, 1.8rem); margin-bottom: 0.75rem; color: #ffcc00; }
+        p, li, blockquote, a { font-size: clamp(1rem, 2.5vw, 1.2rem); margin-bottom: 1rem; }
+        a { color: #ff0055; text-decoration: underline; text-underline-offset: 4px; transition: all 0.2s; }
+        a:hover { color: #00f0ff; text-shadow: 0 0 10px #00f0ff; }
+        strong { color: #ffcc00; font-weight: 900; }
+        /* LAYOUT — AIRY SPACE */
+        header, main, footer { max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem; }
+        section { margin: 4rem 0; border-top: 2px solid #ff005544; padding-top: 3rem; }
+        .conta { position: relative; width: 100%; }
+        /* NAV PRESENT - HAMBURGER */
+        nav { display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; border-bottom: 2px solid #ff0055; position: relative; }
+        nav .logo { font-weight: 900; font-size: 1.5rem; color: #00f0ff; }
+        nav .hamburger { display: none; flex-direction: column; cursor: pointer; background: none; border: none; padding: 0.5rem; }
+        nav .hamburger span { display: block; width: 30px; height: 3px; background: #ff0055; margin: 5px 0; transition: 0.3s; }
+        nav ul { display: flex; gap: 2rem; list-style: none; }
+        nav ul li a { color: #e0e0e0; text-decoration: none; font-weight: bold; letter-spacing: 0.1em; }
+        nav ul li a:hover { color: #ff0055; }
+        @media (max-width: 768px) {
+            nav .hamburger { display: flex; }
+            nav ul { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; width: 100%; background: #0a0a0a; border: 2px solid #ff0055; padding: 1rem; }
+            nav ul.open { display: flex; }
+        }
+        /* TEL LINK */
+        .tel-link { display: inline-block; background: #ff0055; color: #0a0a0a; padding: 0.75rem 2rem; font-weight: 900; text-decoration: none; border: 2px solid #ff0055; letter-spacing: 0.2em; transition: 0.2s; }
+        .tel-link:hover { background: #0a0a0a; color: #ff0055; border-color: #ff0055; text-shadow: none; }
+        /* CARD STYLES - BRUTALIST */
+        .card { background: #111; border: 2px solid #333; padding: 2rem; margin: 1.5rem 0; }
+        .card h3 { border-bottom: 2px solid #ff0055; padding-bottom: 0.5rem; }
+        .card ul { list-style: square; padding-left: 1.5rem; }
+        .card ul li { margin-bottom: 0.5rem; }
+        /* FAQ */
+        .faq-item { border-bottom: 1px solid #333; padding: 1.5rem 0; }
+        .faq-item h4 { color: #00f0ff; cursor: pointer; margin-bottom: 0.5rem; }
+        .faq-item p { display: none; margin-top: 0.5rem; }
+        .faq-item.active p { display: block; }
+        /* JSON-LD */
+        .json-ld { display: none; }
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            header, main, footer { padding: 1.5rem 1rem; }
+            .card { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">PBN BRUTALIST</div>
+            <button class="hamburger" aria-label="메뉴 열기">
+                <span></span><span></span><span></span>
+            </button>
+            <ul>
+                <li><a href="/">홈</a></li>
+                <li><a href="/info">정보</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="tel:010-6279-0862">연결</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>마포 서버 웜업<br>진정한 정보</h1>
+            <p><strong>강남 셔츠룸?</strong> 거기 규격화된 셔츠는 이제 그만. 마포에서 서버를 직접 웜업하고 네가 주인공이 되는 경험을 시작해라. 포장과 스크립트는 여기 없다. <strong>진짜는 010-6279-0862</strong> 한 통이다.</p>
+            <a href="tel:010-6279-0862" class="tel-link">⏏ 지금 연결</a>
+        </section>
+        <section>
+            <h2>정보 ─ 알아야 쏜다</h2>
+            <div class="conta">
+                <div class="card">
+                    <h3>무엇이 다른가?</h3>
+                    <ul>
+                        <li><strong>서버 웜업:</strong> 그냥 입는 셔츠가 아니다. 네 몸과 마음을 깨우는 리추얼. 마포만의 웜업 프로토콜.</li>
+                        <li><strong>강남 셔츠룸?</strong> 거긴 규격과 포장. 여기는 실전과 방향. 네가 직접 선택하고 경험한다.</li>
+                        <li><strong>지역 시그널:</strong> 마포의 거친 에너지. 상암, 합정, 홍대가 만든 새로운 흐름. 우리는 거기서 시작한다.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>작동 방식</h3>
+                    <ul>
+                        <li>전화 연결 → 니즈 파악 (숨기지 마라)</li>
+                        <li>워밍업 세션 (위치, 분위기, 페이스 설정)</li>
+                        <li>본격적인 셔츠 서비스 (여기는 진짜다)</li>
+                        <li>리셋 & 피드백 (다음은 더 강하게)</li>
+                    </ul>
+                    <p>모든 과정은 <strong>명확하고 직접적</strong>이다. 전화 한 통이면 끝. <a href="tel:010-6279-0862">010-6279-0862</a></p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>자주 묻는 진짜 질문</h2>
+            <div class="conta">
+                <div class="faq-item">
+                    <h4>“서버 웜업”이 정확히 뭐야?</h4>
+                    <p>단순한 셔츠 대여가 아니다. 네 상태를 체크하고, 분위기를 끌어올리고, 최적의 셔츠 경험을 위해 준비하는 과정. 마포에서만 가능한 리추얼.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>왜 강남 셔츠룸 말고 여길 와야 해?</h4>
+                    <p>강남은 정해진 틀, 정해진 멘트, 정해진 코스. 여긴 네가 정한다. 셔츠도, 분위기도, 스피드도. 네가 원하는 대로 웜업한다.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>연락은 꼭 전화로만 해야 해?</h4>
+                    <p>그래. 문자나 SNS는 거른다. 진짜 관심은 전화로 증명해라. <strong>010-6279-0862</strong> — 바로 연결된다.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>마포 어디에서 진행돼?</h4>
+                    <p>상암, 합정, 홍대 인근. 정확한 위치는 전화 연결 후 안내. 현장감 200%.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>방향 ─ 직접 와서 확인해라</h2>
+            <p>지도 앱에 “서버 웜업 마포” 검색. 혹은 그냥 전화해라. 길 찾는 것도 네 몫이다.</p>
+            <p><strong>위치:</strong> 서울 마포구 일대 (상암/합정/홍대) — 전화 시 정확한 포인트 공유</p>
+            <p><strong>길 안내:</strong> 6호선, 2호선, 경의중앙선 모두 접근 가능. 오는 길에 전화 한 통 걸어라.</p>
+            <a href="tel:010-6279-0862" class="tel-link">📞 010-6279-0862</a>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 PBN Brutalist — 마포 서버 웜업. 강남 셔츠룸의 반격.</p>
+        <p>직접 보고, 직접 경험해라. 문의는 010-6279-0862</p>
+    </footer>
+    <script>
+        // HAMBURGER TOGGLE
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('nav ul');
+            if (hamburger && navMenu) {
+                hamburger.addEventListener('click', function() {
+                    navMenu.classList.toggle('open');
+                });
+            }
+            // FAQ TOGGLE
+            const faqItems = document.querySelectorAll('.faq-item h4');
+            faqItems
+</body>
+</html>

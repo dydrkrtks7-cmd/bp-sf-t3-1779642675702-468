@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <title>블로그 ─ 마포 서버 웜업이 뒤집는 진짜 이야기</title>
+    <meta name="description" content="강남 셔츠룸의 가짜 서열은 잊어라. 마포 서버 웜업이 진짜다. 010-6279-0862로 지금 부딪혀라.">
+    <meta name="keywords" content="강남 셔츠룸, 마포 셔츠룸, 서버 웜업, 셔츠룸, 강남, 마포, 셔츠, 웜업, 블로그">
+    <meta name="author" content="PBN Brutalist">
+    <link rel="canonical" href="https://sf-t3-1779642675702-468.pages.dev/">
+    <meta property="og:title" content="블로그 ─ 네가 알던 그 셔츠는 끝났다">
+    <meta property="og:description" content="마포 서버 웜업이 강남 셔츠룸의 판을 완전히 뒤집었다. 규격화된 서비스는 가라. 직접 확인하라.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://sf-t3-1779642675702-468.pages.dev/blog">
+    <meta property="og:image" content="https://sf-t3-1779642675702-468.pages.dev/og-blog.jpg">
+    <meta property="og:locale" content="ko_KR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="블로그 ─ 네가 알던 그 셔츠는 끝났다">
+    <meta name="twitter:description" content="마포 서버 웜업이 강남 셔츠룸의 판을 완전히 뒤집었다. 규격화된 서비스는 가라. 직접 확인하라.">
+    <meta name="twitter:image" content="https://sf-t3-1779642675702-468.pages.dev/twitter-blog.jpg">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { font-size: 100%; scroll-behavior: smooth; }
+        body { font-family: 'Courier New', Courier, monospace; background: #0f0f0f; color: #e0e0e0; line-height: 1.6; padding: 0 1rem; min-height: 100vh; display: flex; flex-direction: column; }
+        header, main, footer { max-width: 1200px; margin: 0 auto; width: 100%; }
+        section { padding: 4rem 0; border-bottom: 2px solid #ff0055; }
+        .container { padding: 0 2rem; }
+        h1, h2, h3, h4 { font-weight: 900; text-transform: uppercase; letter-spacing: 0.05em; }
+        h1 { font-size: clamp(2.5rem, 8vw, 5rem); color: #ff0055; text-shadow: 0 0 20px rgba(255,0,85,0.5); line-height: 1; margin-bottom: 1rem; }
+        h2 { font-size: clamp(1.8rem, 5vw, 3rem); color: #ff0055; margin-bottom: 1.5rem; border-left: 6px solid #ff0055; padding-left: 1rem; }
+        h3 { font-size: clamp(1.3rem, 3vw, 2rem); color: #ffcc00; margin-bottom: 1rem; }
+        p, li, blockquote, a { font-size: 1.1rem; line-height: 1.8; }
+        a { color: #ff0055; text-decoration: underline; text-underline-offset: 3px; transition: color 0.3s; }
+        a:hover { color: #ffcc00; }
+        strong { color: #ffcc00; font-weight: 900; }
+        header { padding: 2rem 0; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid #ff0055; }
+        header nav { display: flex; gap: 2rem; align-items: center; }
+        header nav a { font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; font-size: 1rem; color: #e0e0e0; }
+        header nav a:hover { color: #ff0055; }
+        .hamburger { display: none; }
+        footer { padding: 3rem 0; text-align: center; border-top: 3px solid #ff0055; }
+        footer a { color: #ffcc00; }
+        blockquote { border-left: 6px solid #ffcc00; padding: 1.5rem 2rem; margin: 2rem 0; background: #1a1a1a; font-style: normal; }
+        .blog-post { background: #111; padding: 2rem; margin: 2rem 0; border: 1px solid #333; }
+        .blog-post p { margin-bottom: 1.5rem; }
+        .blog-post .highlight { background: #ff0055; color: #fff; padding: 0.2rem 0.5rem; display: inline-block; font-weight: 900; }
+        .tel-link { color: #ffcc00; font-size: 1.5rem; font-weight: 900; text-decoration: none; border: 2px solid #ff0055; padding: 0.5rem 1.5rem; display: inline-block; margin-top: 2rem; transition: all 0.3s; }
+        .tel-link:hover { background: #ff0055; color: #0f0f0f; }
+        @media (max-width: 768px) {
+            header nav { display: none; }
+            .hamburger { display: block; cursor: pointer; font-size: 2rem; color: #ff0055; }
+            header nav.active { display: flex; flex-direction: column; position: absolute; top: 80px; right: 1rem; background: #111; padding: 1rem; border: 2px solid #ff0055; }
+            header { position: relative; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: clamp(1.5rem, 4vw, 2.5rem); margin: 0;">블로그</h1>
+        <nav id="navbar">
+            <a href="./index.html">홈</a>
+            <a href="./blog.html">블로그</a>
+            <a href="tel:010-6279-0862">010-6279-0862</a>
+        </nav>
+        <div class="hamburger" onclick="document.getElementById('navbar').classList.toggle('active')">☰</div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <h2>강남 셔츠룸, 마포에서 다시 태어나다</h2>
+                <div class="blog-post">
+                    <p><span class="highlight">경고</span> 네가 강남에서 경험한 그 규격화된 서비스는 가짜다. 진짜는 따로 있다.</p>
+                    <p>마포에서 시작된 서버 웜업은 처음부터 다른 게임을 설계했다. 강남 셔츠룸이 10년째 같은 판을 굴리는 동안, 우리는 <strong>서버 웜업</strong>이라는 개념 자체를 뒤집었다. 셔츠 한 장과 허세로 포장된 가격표는 더 이상 통하지 않는다.</p>
+                    <p>여기는 <strong>마포</strong>다. 규격화된 매뉴얼로 직원을 교육하지 않는다. 대신, 진짜 피드백과 실시간 데이터로 웜업을 최적화한다. 강남 셔츠룸이 '공장'이라면, 우리는 '랩'이다. 실험하고, 부딪히고, 개선한다.</p>
+                    <blockquote>
+                        "강남 셔츠룸은 네 호주머니만 노린다. 마포 서버 웜업은 네 경험 자체를 바꾼다." <br>— PBN Brutalist 팀
+                    </blockquote>
+                    <p>왜 <strong>010-6279-0862</strong>로 전화해야 하는가? 글쎄, 직접 부딪혀 보면 안다. 전화 한 통이면, 네가 알던 모든 셔츠룸의 기준이 무너진다. 우리는 웜업의 첫 단계부터 마지막 순간까지, 진짜로 네가 원하는 걸 제공한다.</p>
+                    <p><strong>강남 셔츠룸</strong>이라는 키워드에 속지 마라. 진짜는 마포에 있다. 규격화된 서비스는 가라. 우리와 함께 웜업하라.</p>
+                    <a href="tel:010-6279-0862" class="tel-link">010-6279-0862 ─ 지금 전화하라</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 PBN Brutalist · 마포 서버 웜업 · <a href="tel:010-6279-0862">010-6279-0862</a></p>
+        <p>강남 셔츠룸의 가성비는 잊어라. 진짜는 여기다.</p>
+    </footer>
+
+    <script>
+        // 햄버거 메뉴 토글 (모바일)
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.getElementById('navbar').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
